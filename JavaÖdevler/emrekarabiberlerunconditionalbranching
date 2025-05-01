@@ -1,0 +1,49 @@
+
+import java.util.Scanner;
+public class guardedcommands {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int gun = input.nextInt();
+    
+    switch(gun){
+        case 1:
+            System.out.println("pazartesi");
+        break;
+        case 2:
+        System.out.println("sali");
+        break; 
+        case 3:
+        System.out.println("carsamba");
+        break; 
+        case 4:
+        System.out.println("persembe");
+        break; 
+        case 5:
+        System.out.println("cuma");
+        break; 
+        case 6:
+        System.out.println("cumartesi");
+        break; 
+        case 7:
+        System.out.println("pazar");
+        break;
+ }
+}
+
+public class unconditionalbranching{
+public static void main(String[] args) {
+    System.out.println("bu bir koşulsuz dallanma");
+    for(int i = 0; i<5; i++){
+        System.out.println("sayi"+i);
+        for(int j = 0; j<=0;j--){
+           if(j<0){
+            break;
+           }
+       System.out.println("\n sayilar"+j);
+       
+        }
+
+    }
+}
+
+}
